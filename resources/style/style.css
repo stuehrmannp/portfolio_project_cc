@@ -28,7 +28,7 @@ header h1 {
 
 header li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 20px;
   font-weight: 700;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -91,4 +91,27 @@ a {
   font-family: "Noto Sans JP", sans-serif;
   padding-bottom: 10px;
   font-size: 20px;
+}
+
+/* Skills section */
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skills img {
+  height: 35px;
+  width: auto;
+  padding: 0 20px 0 20px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  margin-top: 200px;
+}
+
+footer span {
+  color: red;
 }
